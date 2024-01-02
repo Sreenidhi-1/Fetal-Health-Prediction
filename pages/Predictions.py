@@ -50,7 +50,7 @@ feature_descriptions = {
 }
 col1, col2 = st.columns(2)
 i=0
-data1=pd.read_csv(r'D:\College\Sem 5\ML\ML Final Lab Test\fetal_health.csv')
+data1=pd.read_csv("fetal_health.csv")
 data=[]
 histogram_features = [feature for feature in feature_descriptions if "Histogram" in feature]
 set1=["Baseline value","Abnormal short term variability","Abnormal long term variability(percentage)"]
@@ -87,7 +87,7 @@ selected_option = st.selectbox("Select a Model", ["Gradient Boosting Model", "PA
 if st.button("Run Gradient Boosting", key="gradient_boosting_button", help="Click to run Gradient Boosting"):
     if(selected_option=="Gradient Boosting Model"):
         st.write("Gradient Boosting is running...")
-        file = open(r"D:\College\Sem 5\ML\ML Final Lab Test\GradientBoostingClassifier (1).pkl", 'rb')
+        file = open("GradientBoostingClassifier (1).pkl", 'rb')
         model = pickle.load(file,encoding='latin1')
         health=model.predict(df)
         if(health[0]==1):
@@ -98,7 +98,7 @@ if st.button("Run Gradient Boosting", key="gradient_boosting_button", help="Clic
             prediction_text="Fetal is Pathological"
     elif(selected_option=="Federated Model"):
         st.write("Gradient Boosting is running...")
-        model = load_model(r"D:\College\Sem 5\ML\ML Final Lab Test\FedaratedModel.h5")
+        model = load_model("FedaratedModel.h5")
         health=model.predict(df)
         result=health.tolist()
         class1=result.index(max(health.tolist()))
@@ -110,7 +110,7 @@ if st.button("Run Gradient Boosting", key="gradient_boosting_button", help="Clic
             prediction_text="Fetal is Pathological"
     elif(selected_option=="PATE Model"):
         st.write("Gradient Boosting is running...")
-        file = open(r"D:\College\Sem 5\ML\ML Final Lab Test\PATE_model.pkl", 'rb')
+        file = open("PATE_model.pkl", 'rb')
         model = pickle.load(file,encoding='latin1')
         health=model.predict(df)
         if(health[0]==1):
