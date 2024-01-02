@@ -15,7 +15,7 @@ from mlxtend.plotting import plot_confusion_matrix
 from tensorflow.keras.models import load_model
 
 
-dataset = pd.read_csv(r"D:\College\Sem 5\ML\ML Final Lab Test\fetal_health.csv")
+dataset = pd.read_csv("fetal_health.csv")
 
 
 def evaluate_model(model, X_test, y_test):
@@ -34,9 +34,9 @@ y = dataset["fetal_health"]
 X = dataset.drop(columns=["fetal_health"])  # Replace "target_column" with the actual column name
 
 
-with open(r"D:\College\Sem 5\ML\ML Final Lab Test\GradientBoostingClassifier (1).pkl", "rb") as model_file:
+with open("GradientBoostingClassifier (1).pkl", "rb") as model_file:
     models = pickle.load(model_file)
-with open(r"D:\College\Sem 5\ML\ML Final Lab Test\PATE_model.pkl", "rb") as model_file:
+with open("PATE_model.pkl", "rb") as model_file:
     pate_models = pickle.load(model_file)
 #fl_models = load_model(r"D:\College\Sem 5\ML\ML Final Lab Test\FedaratedModel.h5")
 
@@ -45,7 +45,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 st.sidebar.title("Select Model")
 list_models=["Gradient Boosting","With PATE"]
 selected_model = st.sidebar.selectbox("Select a model", list_models)
-image_path = "D:/College/Sem 5/ML/classification_report.png"
+#image_path = "D:/College/Sem 5/ML/classification_report.png"
 
 
 
@@ -88,19 +88,7 @@ if st.button("Evaluate"):
     #plt.title('Confusion Matrix', fontsize=18)
     st.pyplot(fig)
     
-    """fpr, tpr, thresholds = roc_curve(y_test, y_pred)
-    
-    fig = px.area(
-            x=fpr, y=tpr,
-            title=f'ROC Curve (AUC={auc(fpr, tpr):.4f})',
-            labels=['False Positive Rate','True Positive Rate'],
-            width=700, height=700
-        )
-    fig.add_shape(
-            type='line',
-            x0=0, x1=1, y0=0, y1=1
-        )
-    st.plotly_chart(fig)"""
+   
 
 
 
