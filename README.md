@@ -14,9 +14,9 @@ The classification of fetal health is performed using the Gradient Boosting algo
 
 To ensure the privacy of sensitive data, the project implements two key privacy-preserving techniques: Private Aggregation of Teacher Ensembles (PATE) and Federated Learning.
 
--PATE : PATE is utilized to train a model without direct access to the individual records. It involves training multiple "teacher" models on disjoint subsets of the data and then aggregating their predictions in a privacy-preserving manner.
+- PATE : PATE is utilized to train a model without direct access to the individual records. It involves training multiple "teacher" models on disjoint subsets of the data and then aggregating their predictions in a privacy-preserving manner.
 
--Federated Learning : Federated Learning is implemented to train the model across decentralized devices. This allows the model to learn from distributed data without exposing individual data records.
+- Federated Learning : Federated Learning is implemented to train the model across decentralized devices. This allows the model to learn from distributed data without exposing individual data records.
 
 ### Visualization
 
