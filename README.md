@@ -10,6 +10,15 @@ The dataset used for this project was obtained from Kaggle (https://www.kaggle.c
 
 The classification of fetal health is performed using the Gradient Boosting algorithm. This machine learning model has been trained on the provided dataset to make accurate predictions.
 
+
+<p float="left">
+  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/03fb5f28-fe21-4e78-aacb-6f26a100aac1" width="300" />
+  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/f474dbe8-6a01-45b1-aced-3e3c4495ed5f" width="300"/>
+
+</p>
+
+
+
 ### Privacy Protection
 
 To ensure the privacy of sensitive data, the project implements two key privacy-preserving techniques: Private Aggregation of Teacher Ensembles (PATE) and Federated Learning.
