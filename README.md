@@ -33,3 +33,15 @@ To ensure the privacy of sensitive data, the project implements two key privacy-
 ### Visualization
 
 The project includes visualizations to provide insights into the model's performance, privacy-preserving techniques, and the overall health classification.
+
+
+<p float="left">
+  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/64cfcca6-0523-470b-82d6-a69a2e58ea8c" width="300" />
+  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/e5bc8798-1335-489f-a18c-9784f6df5f83" width="300"/>
+  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/676ae70d-b2e5-4d79-a8cd-1b524b96c8e8" width="300"/>
+  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/e5bc8798-1335-489f-a18c-9784f6df5f83" width="300"/>
+</p>
+
+
+
+
