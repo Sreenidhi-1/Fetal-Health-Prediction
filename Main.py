@@ -13,7 +13,7 @@ st.markdown(
         unsafe_allow_html=True
     )
 st.image("https://stream.org/wp-content/uploads/Scientist-Fetus-Embryo-healthy-Life-Baby-Science-Studies-900.jpg", use_column_width=True)
-df=pd.read_csv(r"D:\College\Sem 5\ML\ML Final Lab Test\fetal_health.csv")
+df=pd.read_csv("fetal_health.csv")
 
 with st.expander(("About the Fetal health Dataset")):
     
@@ -61,5 +61,5 @@ st.markdown("<h1 style='text-align: center; color: #FFA500;'>DATASET</h1>", unsa
 st.write(df)
 if st.sidebar.button("DataPrep"):
     st.markdown("<h1 style='text-align: center; color: #FFA500;'>DATA PREP</h1>", unsafe_allow_html=True)
-    st.components.v1.html(open("D:/College/Sem 5/ML/ML Final Lab Test/fetal_health_report.html", 'r').read(),height=800,width=1000, scrolling=True)
+    st.components.v1.html(open("fetal_health_report.html", 'r').read(),height=800,width=1000, scrolling=True)
 
