@@ -27,6 +27,9 @@ To ensure the privacy of sensitive data, the project implements two key privacy-
 
 - Federated Learning : Federated Learning is implemented to train the model across decentralized devices. This allows the model to learn from distributed data without exposing individual data records.
 
+<img width="624" alt="image" src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/22028c91-32b9-4b16-8de1-dd75760a0305">
+
+
 ### Visualization
 
 The project includes visualizations to provide insights into the model's performance, privacy-preserving techniques, and the overall health classification.
