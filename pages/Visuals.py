@@ -12,7 +12,7 @@ from sklearn.tree import plot_tree
 from sklearn.ensemble import GradientBoostingClassifier
 
 warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib")
-data=pd.read_csv(r"D:\College\Sem 5\ML\ML Final Lab Test\fetal_health.csv")
+data=pd.read_csv("fetal_health.csv")
 data.replace([np.inf, -np.inf], np.nan, inplace=True)
 
 data.dropna(inplace=True)
