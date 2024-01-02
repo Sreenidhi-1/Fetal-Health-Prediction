@@ -12,8 +12,8 @@ The classification of fetal health is performed using the Gradient Boosting algo
 
 
 <p float="left">
-  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/03fb5f28-fe21-4e78-aacb-6f26a100aac1" width="300" />
-  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/f474dbe8-6a01-45b1-aced-3e3c4495ed5f" width="300"/>
+  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/03fb5f28-fe21-4e78-aacb-6f26a100aac1" width="500" />
+  <img src="https://github.com/Sreenidhi-1/Fetal-Health-Prediction/assets/91629420/f474dbe8-6a01-45b1-aced-3e3c4495ed5f" width="500"/>
 
 </p>
 
